@@ -79,7 +79,8 @@ public class MovieUrlUtil {
 			movieDescriptionList.add(movieDescription);
 			
 		}
-		System.out.println(JsonUtil.getInstance().toJson(movieDescriptionList));
+//		System.out.println(JsonUtil.getInstance().toJson(movieDescriptionList));
+		movieUrlsMap.clear();
 		return JsonUtil.getInstance().toJson(movieDescriptionList);
 		
 	}
