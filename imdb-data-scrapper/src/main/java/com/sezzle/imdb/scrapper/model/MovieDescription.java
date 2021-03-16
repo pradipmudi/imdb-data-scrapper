@@ -24,8 +24,8 @@ public class MovieDescription {
 	public Double getImdb_rating() {
 		return imdb_rating;
 	}
-	public void setImdb_rating(Double imdb_rating) {
-		this.imdb_rating = imdb_rating;
+	public void setImdb_rating(Double double1) {
+		this.imdb_rating = double1;
 	}
 	public String getSummary() {
 		return summary;
