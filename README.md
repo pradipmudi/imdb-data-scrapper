@@ -3,7 +3,7 @@ A command line based java application to scrap data from IMDb website
 
 ## How to configure the project?
 * Clone the project from GIT repo and import the project as "Existing Maven Project"(If you are using Eclipse)
-* All the dependecies are metioned in the **'pom.xml'** file, after cloning the project simply clean and build it
+* All the dependencies are metioned in the **'pom.xml'** file, after cloning the project simply clean and build it
 * Dependencies used in the project : 
   
         <dependencies>
@@ -24,7 +24,7 @@ A command line based java application to scrap data from IMDb website
   
 
 ### How to create the command line based runnable jar?
-Create a runnable JAR with **com.sezzle.imdb.scrapper.Driver.java**
+Create a runnable JAR with **com.sezzle.imdb.scrapper.Driver.java** in **Launch Configuration**
 
 #### How to run from command line ?
 * Go to the target directory of the jar and run as shown in the image : 
